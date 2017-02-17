@@ -13,12 +13,12 @@ public class TrianguloBasicoUnitTest {
 	
 	@Test
 	public void testeTrianguloEscaleno() throws TrianguloNaoPreenchidoException {
-		assertEquals("O triângulo é Escaleno", Triangulo.calcular(3, 3, 9));
+		assertEquals("O triângulo é Escaleno", Triangulo.calcular(3, 4, 9));
 	}
 	
 	@Test
 	public void testeTrianguloIsosceles() throws TrianguloNaoPreenchidoException {
-		assertEquals("O triângulo é Isósceles", Triangulo.calcular(3, 4, 6));
+		assertEquals("O triângulo é Isósceles", Triangulo.calcular(3, 3, 6));
 	}
 
 }
