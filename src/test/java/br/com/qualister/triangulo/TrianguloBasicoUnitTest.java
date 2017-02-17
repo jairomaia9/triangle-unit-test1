@@ -8,17 +8,17 @@ public class TrianguloBasicoUnitTest {
 
 	@Test
 	public void testeTrianguloEquilatero() throws TrianguloNaoPreenchidoException {
-		assertEquals("O triângulo é Equilátero", Triangulo.calcular(3, 3, 3));
+		assertEquals("O triângulo é Equilátero", Triangulo.calcular(2, 3, 3));
 	}
 	
 	@Test
 	public void testeTrianguloEscaleno() throws TrianguloNaoPreenchidoException {
-		assertEquals("O triângulo é Escaleno", Triangulo.calcular(3, 4, 9));
+		assertEquals("O triângulo é Escaleno", Triangulo.calcular(3, 3, 9));
 	}
 	
 	@Test
 	public void testeTrianguloIsosceles() throws TrianguloNaoPreenchidoException {
-		assertEquals("O triângulo é Isósceles", Triangulo.calcular(3, 3, 6));
+		assertEquals("O triângulo é Isósceles", Triangulo.calcular(3, 5, 6));
 	}
 
 }
